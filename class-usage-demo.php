@@ -52,6 +52,8 @@ if (is_admin()){
   $my_meta->addDate($prefix.'date_field_id',array('name'=> __('My Date ','tax-meta')));
   //Time field
   $my_meta->addTime($prefix.'time_field_id',array('name'=> __('My Time ','tax-meta')));
+  //Number field
+  $my_meta->addText($prefix.'number_field_id',array('name'=> __('My Number ','tax-meta')));
   //Color field
   $my_meta->addColor($prefix.'color_field_id',array('name'=> __('My Color ','tax-meta')));
   //Image field
